@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form-basic{
+    border: 7px solid blueviolet;
+    margin: 5px;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+}
+.form-title{
+    display: flex;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 200px;
+}
+.button{
+    background-color: blueviolet;
+    font-size: 15px;
+    border-radius: 20px;
+}
